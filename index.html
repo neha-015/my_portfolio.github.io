@@ -1,81 +1,445 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neha Nagnath Jalla Portfolio</title><style>
+body {font-family: Arial; margin:0; background:#f4f4f4; color:#333; scroll-behavior:smooth;}
+header {background:#222; color:#fff; padding:15px; text-align:center; position:sticky; top:0;}
+nav a {color:#fff; margin:10px; text-decoration:none;}
+section {padding:40px; max-width:900px; margin:auto;}
+h2 {border-bottom:2px solid #ccc; padding-bottom:5px;}
+.card {background:#fff; padding:20px; margin:15px 0; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);} 
+footer {text-align:center; padding:15px; background:#222; color:#fff;}
+button {padding:8px 12px; border:none; border-radius:5px; cursor:pointer; margin-top:10px;}
 
-<header>
-    <h1>Your Name</h1>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#achievements">Achievements</a>
-        <a href="#projects">Projects</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <button onclick="toggleDarkMode()">🌙</button>
-</header>
-
-<section id="home">
-    <img src="assets/profile.jpg" class="profile">
-    <h2>Hello, I'm Your Name</h2>
-    <p>Welcome to my portfolio website!</p>
-</section>
-
-<section id="about">
-    <h2>About Me</h2>
-    <p>Education: Your details</p>
-    <p>Interests: Coding, AI, etc.</p>
-    <p>Goals: Become a software developer</p>
-    <p>Strengths: Hardworking, problem solving</p>
-</section>
-
-<section id="achievements">
-    <h2>Achievements</h2>
+/* Dark Mode */
+.dark {background:#121212; color:#eee;}
+.dark header, .dark footer {background:#000;}
+.dark .card {background:#1e1e1e;}
+</style></head><body><header>
+  <h1>Neha Nagnath Jalla</h1>
+  <p>B.Tech CSE | MIT Vishwaprayag University</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</header><section id="home">
+  <h2>Home</h2>
+  <div class="card">
+    <p>Hello! I am <b>Neha Nagnath Jalla</b>, a B.Tech Computer Science Engineering student at MIT Vishwaprayag University (MITVPU). I am passionate about technology, web development, and programming. I enjoy building simple and user-friendly applications.</p>
+  </div>
+</section><section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am currently pursuing my B.Tech in Computer Science Engineering. I am very interested in learning new technologies and improving my skills.</p>
+    <p><b>Strengths:</b> Problem-solving, quick learner, teamwork</p>
+    <p><b>Interests:</b> Web Development, Programming, AI basics</p>
+    <p><b>Goal:</b> To become a successful software developer.</p>
+  </div>
+</section><section id="achievements">
+  <h2>Achievements</h2>
+  <div class="card">
     <ul>
-        <li>AI4A Project</li>
-        <li>Design Thinking Project</li>
-        <li>ACE Project</li>
-        <li>Coursera Certificate</li>
-        <li>NetAcad Certificate</li>
-        <li>Yuva AI Certificate</li>
+      <li>Completed Coursera Certification</li>
+      <li>Completed NetAcad Certification</li>
+      <li>Completed Yuva AI Certification</li>
+      <li>Participated in academic and technical events</li>
     </ul>
-</section>
+  </div>
+</section><section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <p><b>AI4All Project:</b> Basic AI project solving real-world problem.</p>
+    <p><b>Design Thinking Project:</b> Innovative problem-solving approach.</p>
+    <p><b>ACE Project:</b> Practical technical implementation project.</p>
+    <p><b>Portfolio Website:</b> Personal website using HTML, CSS, JavaScript.</p>
+  </div>
+</section><section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: your-email@gmail.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>GitHub: https://github.com/yourusername</p>
+  </div>
+</section><footer>
+  <p>© 2026 Neha Nagnath Jalla</p>
+</footer><script>
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
+</script></body>
+</html><!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neha Nagnath Jalla Portfolio</title><style>
+body {font-family: Arial; margin:0; background:#f4f4f4; color:#333; scroll-behavior:smooth;}
+header {background:#222; color:#fff; padding:15px; text-align:center; position:sticky; top:0;}
+nav a {color:#fff; margin:10px; text-decoration:none;}
+section {padding:40px; max-width:900px; margin:auto;}
+h2 {border-bottom:2px solid #ccc; padding-bottom:5px;}
+.card {background:#fff; padding:20px; margin:15px 0; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);} 
+footer {text-align:center; padding:15px; background:#222; color:#fff;}
+button {padding:8px 12px; border:none; border-radius:5px; cursor:pointer; margin-top:10px;}
 
-<section id="projects">
-    <h2>Projects</h2>
-    <div class="card">
-        <h3>Project 1</h3>
-        <p>Description of your project</p>
-        <a href="#">View Project</a>
-    </div>
-</section>
+/* Dark Mode */
+.dark {background:#121212; color:#eee;}
+.dark header, .dark footer {background:#000;}
+.dark .card {background:#1e1e1e;}
+</style></head><body><header>
+  <h1>Neha Nagnath Jalla</h1>
+  <p>B.Tech CSE | MIT Vishwaprayag University</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</header><section id="home">
+  <h2>Home</h2>
+  <div class="card">
+    <p>Hello! I am <b>Neha Nagnath Jalla</b>, a B.Tech Computer Science Engineering student at MIT Vishwaprayag University (MITVPU). I am passionate about technology, web development, and programming. I enjoy building simple and user-friendly applications.</p>
+  </div>
+</section><section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am currently pursuing my B.Tech in Computer Science Engineering. I am very interested in learning new technologies and improving my skills.</p>
+    <p><b>Strengths:</b> Problem-solving, quick learner, teamwork</p>
+    <p><b>Interests:</b> Web Development, Programming, AI basics</p>
+    <p><b>Goal:</b> To become a successful software developer.</p>
+  </div>
+</section><section id="achievements">
+  <h2>Achievements</h2>
+  <div class="card">
+    <ul>
+      <li>Completed Coursera Certification</li>
+      <li>Completed NetAcad Certification</li>
+      <li>Completed Yuva AI Certification</li>
+      <li>Participated in academic and technical events</li>
+    </ul>
+  </div>
+</section><section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <p><b>AI4All Project:</b> Basic AI project solving real-world problem.</p>
+    <p><b>Design Thinking Project:</b> Innovative problem-solving approach.</p>
+    <p><b>ACE Project:</b> Practical technical implementation project.</p>
+    <p><b>Portfolio Website:</b> Personal website using HTML, CSS, JavaScript.</p>
+  </div>
+</section><section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: your-email@gmail.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>GitHub: https://github.com/yourusername</p>
+  </div>
+</section><footer>
+  <p>© 2026 Neha Nagnath Jalla</p>
+</footer><script>
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
+</script></body>
+</html><!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neha Nagnath Jalla Portfolio</title><style>
+body {font-family: Arial; margin:0; background:#f4f4f4; color:#333; scroll-behavior:smooth;}
+header {background:#222; color:#fff; padding:15px; text-align:center; position:sticky; top:0;}
+nav a {color:#fff; margin:10px; text-decoration:none;}
+section {padding:40px; max-width:900px; margin:auto;}
+h2 {border-bottom:2px solid #ccc; padding-bottom:5px;}
+.card {background:#fff; padding:20px; margin:15px 0; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);} 
+footer {text-align:center; padding:15px; background:#222; color:#fff;}
+button {padding:8px 12px; border:none; border-radius:5px; cursor:pointer; margin-top:10px;}
 
-<section id="gallery">
-    <h2>Gallery</h2>
-    <img src="assets/certificates/cert1.jpg">
-    <img src="assets/projects/project1.jpg">
-</section>
+/* Dark Mode */
+.dark {background:#121212; color:#eee;}
+.dark header, .dark footer {background:#000;}
+.dark .card {background:#1e1e1e;}
+</style></head><body><header>
+  <h1>Neha Nagnath Jalla</h1>
+  <p>B.Tech CSE | MIT Vishwaprayag University</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</header><section id="home">
+  <h2>Home</h2>
+  <div class="card">
+    <p>Hello! I am <b>Neha Nagnath Jalla</b>, a B.Tech Computer Science Engineering student at MIT Vishwaprayag University (MITVPU). I am passionate about technology, web development, and programming. I enjoy building simple and user-friendly applications.</p>
+  </div>
+</section><section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am currently pursuing my B.Tech in Computer Science Engineering. I am very interested in learning new technologies and improving my skills.</p>
+    <p><b>Strengths:</b> Problem-solving, quick learner, teamwork</p>
+    <p><b>Interests:</b> Web Development, Programming, AI basics</p>
+    <p><b>Goal:</b> To become a successful software developer.</p>
+  </div>
+</section><section id="achievements">
+  <h2>Achievements</h2>
+  <div class="card">
+    <ul>
+      <li>Completed Coursera Certification</li>
+      <li>Completed NetAcad Certification</li>
+      <li>Completed Yuva AI Certification</li>
+      <li>Participated in academic and technical events</li>
+    </ul>
+  </div>
+</section><section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <p><b>AI4All Project:</b> Basic AI project solving real-world problem.</p>
+    <p><b>Design Thinking Project:</b> Innovative problem-solving approach.</p>
+    <p><b>ACE Project:</b> Practical technical implementation project.</p>
+    <p><b>Portfolio Website:</b> Personal website using HTML, CSS, JavaScript.</p>
+  </div>
+</section><section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: your-email@gmail.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>GitHub: https://github.com/yourusername</p>
+  </div>
+</section><footer>
+  <p>© 2026 Neha Nagnath Jalla</p>
+</footer><script>
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
+</script></body>
+</html><!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neha Nagnath Jalla Portfolio</title><style>
+body {font-family: Arial; margin:0; background:#f4f4f4; color:#333; scroll-behavior:smooth;}
+header {background:#222; color:#fff; padding:15px; text-align:center; position:sticky; top:0;}
+nav a {color:#fff; margin:10px; text-decoration:none;}
+section {padding:40px; max-width:900px; margin:auto;}
+h2 {border-bottom:2px solid #ccc; padding-bottom:5px;}
+.card {background:#fff; padding:20px; margin:15px 0; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);} 
+footer {text-align:center; padding:15px; background:#222; color:#fff;}
+button {padding:8px 12px; border:none; border-radius:5px; cursor:pointer; margin-top:10px;}
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
-    <p>Phone: 1234567890</p>
-    <p>
-        <a href="#">LinkedIn</a> |
-        <a href="#">GitHub</a>
-    </p>
-</section>
+/* Dark Mode */
+.dark {background:#121212; color:#eee;}
+.dark header, .dark footer {background:#000;}
+.dark .card {background:#1e1e1e;}
+</style></head><body><header>
+  <h1>Neha Nagnath Jalla</h1>
+  <p>B.Tech CSE | MIT Vishwaprayag University</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</header><section id="home">
+  <h2>Home</h2>
+  <div class="card">
+    <p>Hello! I am <b>Neha Nagnath Jalla</b>, a B.Tech Computer Science Engineering student at MIT Vishwaprayag University (MITVPU). I am passionate about technology, web development, and programming. I enjoy building simple and user-friendly applications.</p>
+  </div>
+</section><section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am currently pursuing my B.Tech in Computer Science Engineering. I am very interested in learning new technologies and improving my skills.</p>
+    <p><b>Strengths:</b> Problem-solving, quick learner, teamwork</p>
+    <p><b>Interests:</b> Web Development, Programming, AI basics</p>
+    <p><b>Goal:</b> To become a successful software developer.</p>
+  </div>
+</section><section id="achievements">
+  <h2>Achievements</h2>
+  <div class="card">
+    <ul>
+      <li>Completed Coursera Certification</li>
+      <li>Completed NetAcad Certification</li>
+      <li>Completed Yuva AI Certification</li>
+      <li>Participated in academic and technical events</li>
+    </ul>
+  </div>
+</section><section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <p><b>AI4All Project:</b> Basic AI project solving real-world problem.</p>
+    <p><b>Design Thinking Project:</b> Innovative problem-solving approach.</p>
+    <p><b>ACE Project:</b> Practical technical implementation project.</p>
+    <p><b>Portfolio Website:</b> Personal website using HTML, CSS, JavaScript.</p>
+  </div>
+</section><section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: your-email@gmail.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>GitHub: https://github.com/yourusername</p>
+  </div>
+</section><footer>
+  <p>© 2026 Neha Nagnath Jalla</p>
+</footer><script>
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
+</script></body>
+</html><!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neha Nagnath Jalla Portfolio</title><style>
+body {font-family: Arial; margin:0; background:#f4f4f4; color:#333; scroll-behavior:smooth;}
+header {background:#222; color:#fff; padding:15px; text-align:center; position:sticky; top:0;}
+nav a {color:#fff; margin:10px; text-decoration:none;}
+section {padding:40px; max-width:900px; margin:auto;}
+h2 {border-bottom:2px solid #ccc; padding-bottom:5px;}
+.card {background:#fff; padding:20px; margin:15px 0; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);} 
+footer {text-align:center; padding:15px; background:#222; color:#fff;}
+button {padding:8px 12px; border:none; border-radius:5px; cursor:pointer; margin-top:10px;}
 
-<footer>
-    <p>© 2026 Your Name</p>
-</footer>
+/* Dark Mode */
+.dark {background:#121212; color:#eee;}
+.dark header, .dark footer {background:#000;}
+.dark .card {background:#1e1e1e;}
+</style></head><body><header>
+  <h1>Neha Nagnath Jalla</h1>
+  <p>B.Tech CSE | MIT Vishwaprayag University</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</header><section id="home">
+  <h2>Home</h2>
+  <div class="card">
+    <p>Hello! I am <b>Neha Nagnath Jalla</b>, a B.Tech Computer Science Engineering student at MIT Vishwaprayag University (MITVPU). I am passionate about technology, web development, and programming. I enjoy building simple and user-friendly applications.</p>
+  </div>
+</section><section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am currently pursuing my B.Tech in Computer Science Engineering. I am very interested in learning new technologies and improving my skills.</p>
+    <p><b>Strengths:</b> Problem-solving, quick learner, teamwork</p>
+    <p><b>Interests:</b> Web Development, Programming, AI basics</p>
+    <p><b>Goal:</b> To become a successful software developer.</p>
+  </div>
+</section><section id="achievements">
+  <h2>Achievements</h2>
+  <div class="card">
+    <ul>
+      <li>Completed Coursera Certification</li>
+      <li>Completed NetAcad Certification</li>
+      <li>Completed Yuva AI Certification</li>
+      <li>Participated in academic and technical events</li>
+    </ul>
+  </div>
+</section><section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <p><b>AI4All Project:</b> Basic AI project solving real-world problem.</p>
+    <p><b>Design Thinking Project:</b> Innovative problem-solving approach.</p>
+    <p><b>ACE Project:</b> Practical technical implementation project.</p>
+    <p><b>Portfolio Website:</b> Personal website using HTML, CSS, JavaScript.</p>
+  </div>
+</section><section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: your-email@gmail.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>GitHub: https://github.com/yourusername</p>
+  </div>
+</section><footer>
+  <p>© 2026 Neha Nagnath Jalla</p>
+</footer><script>
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
+</script></body>
+</html><!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neha Nagnath Jalla Portfolio</title><style>
+body {font-family: Arial; margin:0; background:#f4f4f4; color:#333; scroll-behavior:smooth;}
+header {background:#222; color:#fff; padding:15px; text-align:center; position:sticky; top:0;}
+nav a {color:#fff; margin:10px; text-decoration:none;}
+section {padding:40px; max-width:900px; margin:auto;}
+h2 {border-bottom:2px solid #ccc; padding-bottom:5px;}
+.card {background:#fff; padding:20px; margin:15px 0; border-radius:10px; box-shadow:0 2px 5px rgba(0,0,0,0.1);} 
+footer {text-align:center; padding:15px; background:#222; color:#fff;}
+button {padding:8px 12px; border:none; border-radius:5px; cursor:pointer; margin-top:10px;}
 
-<script src="script.js"></script>
-</body>
+/* Dark Mode */
+.dark {background:#121212; color:#eee;}
+.dark header, .dark footer {background:#000;}
+.dark .card {background:#1e1e1e;}
+</style></head><body><header>
+  <h1>Neha Nagnath Jalla</h1>
+  <p>B.Tech CSE | MIT Vishwaprayag University</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button onclick="toggleDarkMode()">🌙 Dark Mode</button>
+</header><section id="home">
+  <h2>Home</h2>
+  <div class="card">
+    <p>Hello! I am <b>Neha Nagnath Jalla</b>, a B.Tech Computer Science Engineering student at MIT Vishwaprayag University (MITVPU). I am passionate about technology, web development, and programming. I enjoy building simple and user-friendly applications.</p>
+  </div>
+</section><section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>I am currently pursuing my B.Tech in Computer Science Engineering. I am very interested in learning new technologies and improving my skills.</p>
+    <p><b>Strengths:</b> Problem-solving, quick learner, teamwork</p>
+    <p><b>Interests:</b> Web Development, Programming, AI basics</p>
+    <p><b>Goal:</b> To become a successful software developer.</p>
+  </div>
+</section><section id="achievements">
+  <h2>Achievements</h2>
+  <div class="card">
+    <ul>
+      <li>Completed Coursera Certification</li>
+      <li>Completed NetAcad Certification</li>
+      <li>Completed Yuva AI Certification</li>
+      <li>Participated in academic and technical events</li>
+    </ul>
+  </div>
+</section><section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <p><b>AI4All Project:</b> Basic AI project solving real-world problem.</p>
+    <p><b>Design Thinking Project:</b> Innovative problem-solving approach.</p>
+    <p><b>ACE Project:</b> Practical technical implementation project.</p>
+    <p><b>Portfolio Website:</b> Personal website using HTML, CSS, JavaScript.</p>
+  </div>
+</section><section id="contact">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: your-email@gmail.com</p>
+    <p>Phone: +91-XXXXXXXXXX</p>
+    <p>GitHub: https://github.com/yourusername</p>
+  </div>
+</section><footer>
+  <p>© 2026 Neha Nagnath Jalla</p>
+</footer><script>
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
+</script></body>
 </html>
